@@ -11,8 +11,7 @@
 	
 	$data = json_encode(
 		array(
-			'channels' => $channels, 
-			'type' => 'ios',
+			'where' => '{}',
 			'data' => array(
 						'alert' => $alert,
 						'sound' => 'push.caf',
